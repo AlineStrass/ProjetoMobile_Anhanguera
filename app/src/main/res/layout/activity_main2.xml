@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/header2"
+        android:layout_width="413dp"
+        android:layout_height="92dp"
+        android:background="#673AB7"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_vertical"
+        android:paddingLeft="50px"
+        android:text="Meu App"
+        android:textAllCaps="true"
+        android:textColor="#E9E7EB"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+    <TextView
+        android:id="@+id/textViewDisplay"
+        android:layout_width="365dp"
+        android:layout_height="110dp"
+        android:paddingTop="16dp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header2"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="211dp"
+        android:layout_height="47dp"
+        android:background="#673AB7"
+        android:fontFamily="sans-serif"
+        android:text="voltar"
+        android:textAllCaps="true"
+        android:textColor="#E9E7EB"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDisplay"
+        app:layout_constraintVertical_bias="0.093" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
